@@ -10,14 +10,28 @@ $background-color: #0000;
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Lato', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap')
 }
+@font-face {
+  font-family: 'Josefin Sans', sans-serif;
+src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+}
+
+@font-face {
+  font-family: 'Space Mono', monospace;
+  src:  url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+}
 
 input,
 textarea {
-  font-family: 'Montserrat', sans-serif;
+ 
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
