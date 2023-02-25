@@ -29,3 +29,19 @@
         padding-bottom: 20px;
      }
 }
+
+.about{
+    background: $text-bg-color;
+    padding: 100px;
+    max-width:90%; 
+    margin:30px auto;
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+
+    @media screen and (max-width:500px) {
+        padding: 30px;
+        font-size: medium;
+
+    }
+}

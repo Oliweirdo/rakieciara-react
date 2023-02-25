@@ -5,33 +5,35 @@
     height: 100%;
 
 }
-.top-tags{
-    bottom:auto;
+
+.top-tags {
+    bottom: auto;
 }
-.tags{
+
+.tags {
     color: $text-color;
-    position:absolute; 
-    bottom:0;
+    position: absolute;
+    bottom: 0;
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
     color: black;
 }
 
-.bottom-tag-html{
+.bottom-tag-html {
     margin-left: -20px;
 }
 
-.container{
-    width:100%;
+.container {
+    width: 100%;
     will-change: contents;
     height: 90%;
     position: absolute;
-    top:10%;
+    top: 10%;
     margin: 0 auto;
     z-index: 1;
 
     @media screen and (max-width:500px) {
-        top: 350px;
+        top: 35vh;
         width: 100%;
-      }
+    }
 }
