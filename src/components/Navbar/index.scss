@@ -12,10 +12,21 @@
   padding-right: 20vh;
 
   @media screen and (max-width:500px) {
-    min-height: 300px;
+    min-height: 210px;
     width: 100%;
   }
-
+  .box{  
+    @media screen and (max-width:500px) {
+      display: block;
+    width:auto;
+    border-left: 2px solid ;
+    border-right: 2px solid ;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    color: $secondary-color;
+    }
+  }
+  
   .title {
     padding-left: 100px;
     margin: 0 auto;
@@ -27,11 +38,13 @@
     letter-spacing: 3.7px;
     font-family: 'Space Mono', monospace;
 
+
     @media screen and (max-width:500px) {
-      margin-top: 4vh;
+      margin: 4vh vh;
       padding:0;
-      font-size: 25px;
+      font-size: 35px;
       display: block;
+      font-weight: 500; 
     }
   }
 
@@ -52,7 +65,7 @@
     @media screen and (max-width:500px) {
       flex-direction: column;
      padding: 5vh;
-     letter-spacing: 3px;
+     letter-spacing: 1.5px; 
     }
 
     ul {
@@ -62,21 +75,24 @@
       list-style: none;
 
       @media screen and (max-width:500px) {
-        width: 100%;
-        display: block;
+        width: 80%;
+        font-size:5px;
+        margin-left:5px;
       }
     }
 
     li {
       text-align: center;
       justify-content: space-between;
-      padding-left: 20vh;
+      margin:  0 auto;
+      padding-left: 10vh;
       text-align: center;
       text-decoration: none;
 
       @media screen and (max-width:500px) {
-        padding: 0%;
-        margin-left: -30px;
+        padding-left: 0;
+        margin-left: 25px;
+        margin-top:3vh;
       } 
     }
 
@@ -89,8 +105,8 @@
       text-decoration: none;
 
       @media screen and (max-width:500px) {
-        display: block;
-        font-size: 15px;
+       // display: block;
+        font-size: 12px;
       }
 
       i {

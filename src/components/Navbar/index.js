@@ -5,11 +5,13 @@ const Navbar = () =>
  <div className="nav-bar">
 <navbar>
 <nav>
+  <div className='box'>
 <NavLink className="title"
     exact="true"
     activeclassname="active"
     to="/"> RAKIECIARA
   </NavLink>
+  </div>
 <ul>
 <li>
    
@@ -23,7 +25,7 @@ const Navbar = () =>
   <NavLink 
     activeclassname="active"
     className="about-link"
-    to="/"> KOSMICZNE CV
+    to="/"> KOSMICZNE&nbsp;CV
   </NavLink>
   </li>
   <li>
